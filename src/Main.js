@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ed2ea65c47ebd96e0fa1810ac528eef5b892e236628852d240cecf2dc2474bfc
-size 418
+import React from "react";
+import Navigation from "./Components/Navigation";
+import { Container } from "react-bootstrap";
+import Home from "./Components/Home";
+import Skills from "./Components/Skills";
+
+const Main = () => {
+    return (
+        <>
+            <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+                <Navigation />
+                <section id="home" className="snap-start">
+                    <Home />
+                </section>
+
+                <section id="skills" className="snap-center">
+                    <Skills />
+                </section>
+            </div>
+        </>
+    );
+};
+
+export default Main;

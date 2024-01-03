@@ -7,7 +7,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Navigation from "./Navigation";
 
 function Home() {
-    const [salam, count] = useTypewriter({
+    const [salam] = useTypewriter({
         words: [
             "Assalamualaikum",
             "Good Morning!",
@@ -20,7 +20,7 @@ function Home() {
         delaySpeed: 2000,
         deleteSpeed: 10,
     });
-    const [seorang, itung] = useTypewriter({
+    const [seorang] = useTypewriter({
         words: [
             "Programmer",
             "Web Developer (Back-end)",

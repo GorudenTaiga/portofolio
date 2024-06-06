@@ -7,7 +7,7 @@ import Skills from "./Components/Skills";
 const Main = () => {
     return (
         <>
-            <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+            <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-x-hidden scroll- z-0 ">
                 <Navigation />
                 <section id="home" className="snap-start">
                     <Home />

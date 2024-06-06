@@ -6,8 +6,8 @@ import { SocialIcon } from "react-social-icons";
 
 function Navigation() {
     return (
-        <div className="backdrop-blur sticky flex flex-col top-0 pt-2 z-10">
-            <Navbar className="text-3xl font-mono" draggable={false}>
+        <div className="sticky top-0 z-10 flex flex-col pt-2 backdrop-blur">
+            <Navbar className="flex flex-row items-center justify-center w-full gap-10 font-mono text-3xl" draggable={false}>
                 <motion.div
                     initial={{ opacity: 0, x: -500 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -16,14 +16,14 @@ function Navigation() {
                         type: "spring",
                         damping: 10.3,
                     }}
-                    className="ml-[50px] flex flex-row items-center sm:gap-x-3"
+                    className="ml-[50px] flex flex-row items-center sm:gap-x-3 "
                 >
                     <SocialIcon
                         url="https://github.com/GorudenTaiga"
                         target="blank"
                         fgColor="gray"
                         bgColor="transparent"
-                        className="hover:bg-yellow-400 transition-all ease-out rounded-full duration-300"
+                        className="transition-all duration-300 ease-out rounded-full hover:bg-yellow-400"
                         style={{ width: 50, height: 50 }}
                     />
                     <SocialIcon
@@ -31,7 +31,7 @@ function Navigation() {
                         target="blank"
                         fgColor="gray"
                         bgColor="transparent"
-                        className="hover:bg-yellow-400 transition-all ease-out rounded-full duration-300"
+                        className="transition-all duration-300 ease-out rounded-full hover:bg-yellow-400"
                         style={{ width: 50, height: 50 }}
                     />
                     <SocialIcon
@@ -39,7 +39,7 @@ function Navigation() {
                         target="blank"
                         fgColor="gray"
                         bgColor="transparent"
-                        className="hover:bg-yellow-400 transition-all ease-out rounded-full duration-300"
+                        className="transition-all duration-300 ease-out rounded-full hover:bg-yellow-400"
                         style={{ width: 50, height: 50 }}
                     />
                     <SocialIcon
@@ -47,12 +47,12 @@ function Navigation() {
                         target="blank"
                         fgColor="gray"
                         bgColor="transparent"
-                        className="hover:bg-yellow-400 transition-all ease-out rounded-full duration-300"
+                        className="transition-all duration-300 ease-out rounded-full hover:bg-yellow-400"
                         style={{ width: 50, height: 50 }}
                     />
                 </motion.div>
 
-                <Container className="flex flex-col justify-content-center items-center self-center">
+                <div className="flex justify-end w-full mr-10">
                     <motion.div
                         initial={{ opacity: 0, y: -100 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -61,8 +61,9 @@ function Navigation() {
                             type: "spring",
                             bounce: 0.6,
                         }}
+                       
                     >
-                        <Nav>
+                        <Nav >
                             <Nav.Link href="#home" className="text-white">
                                 <motion.h2
                                     whileHover={{
@@ -110,7 +111,7 @@ function Navigation() {
                             </Nav.Link>
                         </Nav>
                     </motion.div>
-                </Container>
+                </div>
             </Navbar>
         </div>
     );

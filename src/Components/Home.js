@@ -37,7 +37,7 @@ function Home() {
 
     return (
         <>
-            <div className="flex items-center justify-center h-screen space-y-8 overflow-hidden">
+            <div className="flex items-center justify-center h-screen space-y-8 overflow-x-hidden">
                 <motion.img
                     ref={ref}
                     initial={{ opacity: 0, x: -300 }}

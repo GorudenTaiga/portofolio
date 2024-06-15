@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.717f5bce.css",
-    "main.js": "/static/js/main.1d063828.js",
-    "static/js/787.58f15db9.chunk.js": "/static/js/787.58f15db9.chunk.js",
-    "static/media/Foto-Diri.jpeg": "/static/media/Foto-Diri.1cf0e184c6b7427f1642.jpeg",
-    "static/media/brand.jpg": "/static/media/brand.01cce217d2be5ea8eae5.jpg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.717f5bce.css.map": "/static/css/main.717f5bce.css.map",
-    "main.1d063828.js.map": "/static/js/main.1d063828.js.map",
-    "787.58f15db9.chunk.js.map": "/static/js/787.58f15db9.chunk.js.map"
+    "main.css": "/portofolio/static/css/main.717f5bce.css",
+    "main.js": "/portofolio/static/js/main.9e692b9a.js",
+    "static/js/787.58f15db9.chunk.js": "/portofolio/static/js/787.58f15db9.chunk.js",
+    "static/media/Foto-Diri.jpeg": "/portofolio/static/media/Foto-Diri.1cf0e184c6b7427f1642.jpeg",
+    "static/media/brand.jpg": "/portofolio/static/media/brand.01cce217d2be5ea8eae5.jpg",
+    "static/media/logo.svg": "/portofolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portofolio/index.html",
+    "main.717f5bce.css.map": "/portofolio/static/css/main.717f5bce.css.map",
+    "main.9e692b9a.js.map": "/portofolio/static/js/main.9e692b9a.js.map",
+    "787.58f15db9.chunk.js.map": "/portofolio/static/js/787.58f15db9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.717f5bce.css",
-    "static/js/main.1d063828.js"
+    "static/js/main.9e692b9a.js"
   ]
 }
